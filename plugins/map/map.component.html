@@ -1,0 +1,6 @@
+<p>
+  map works!
+</p>
+<agm-map *ngIf="currentPosition" [latitude]="currentPosition.coords.latitude" [longitude]="currentPosition.coords.longitude" [style.height.%]="90">
+  <agm-marker [latitude]="currentPosition.coords.latitude" [longitude]="currentPosition.coords.longitude"></agm-marker>
+</agm-map>
