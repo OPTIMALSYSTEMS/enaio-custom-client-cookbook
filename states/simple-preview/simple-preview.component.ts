@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DmsService, DmsParams } from 'eo-client/src/app/eo-framework-core/dms/dms.service';
-import { DmsObject } from '../../../../../node_modules/eo-client/src/app/eo-framework-core/model/dms-object.model';
+import { DmsObject } from 'eo-client/src/app/eo-framework-core/model/dms-object.model';
 
 @Component({
   selector: 'eo-simple-preview',
