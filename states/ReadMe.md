@@ -10,7 +10,7 @@ import {SampleComponent} from './sample/sample.component';
 import {EoLinkPlugin} from 'eo-client/src/app/eo-framework/plugins/plugin.service';
 import { SimpleListComponent } from './simple-list/simple-list.component';
 import { SimplePreviewComponent } from './simple-preview/simple-preview.component';
-import { CanDeactivateListGuard } from './custom/services/can-deactivate-list.guard';
+import { CanDeactivateListGuard } from './custom/services/can-deactivate-list.guard.ts';
 
 
 export const routes: Route[] = [
